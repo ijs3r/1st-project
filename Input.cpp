@@ -1,5 +1,5 @@
 #include "Input.h"
-void clear(double**& buffer, int n) {
+inline void clear(double**& buffer, int n) {
 	for (int i = 0; i < n; ++i)delete[]buffer[i];
 	delete[]buffer;
 	buffer = 0;
@@ -62,4 +62,5 @@ bool GetInput(double**& buffer, int& n,char mode) {
 		break;
 	default:break;
 	}
+	return 0;
 }
