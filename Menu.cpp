@@ -1,4 +1,5 @@
 #include <iostream>
+//-----------------
 using namespace std;
 int menu() {
 	cout << "\nYou can: " << endl;

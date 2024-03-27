@@ -1,4 +1,5 @@
 #include "Input.h"
+//-----------------
 inline void clear(double**& buffer, int n) {
 	for (int i = 0; i < n; ++i)delete[]buffer[i];
 	delete[]buffer;

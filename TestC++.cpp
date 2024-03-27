@@ -2,7 +2,7 @@
 #include "Output.h"
 #include "Input.h"
 #include "Model.h"
-
+//-----------------
 int main() {
 	int res = menu();
 	int n, i, j,m;

@@ -1,4 +1,5 @@
 #include "Model.h"
+//-----------------
 void FindPoints(double** points, int n, int& i, int& j,int &m) {
 	int mini = -1, minj;
 	for (i = 0; i < n - 2; ++i) {
