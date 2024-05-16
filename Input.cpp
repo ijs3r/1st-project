@@ -39,6 +39,7 @@ char GetInputFile(const char* file_name, double**& buffer, int& n) {
 	file.close();
 	return 1;
 }
+
 bool GetInput(double**& buffer, int& n,char mode) {
 	
 	switch (mode)
